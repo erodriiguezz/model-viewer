@@ -32,7 +32,7 @@
       );
 
       if (supportsModelViewer) {
-        viewer.innerHtml = `<model-viewer src="assets/models/Heart.glb" poster="assets/models/Heart.png" shadow-intensity="1" ar ar-modes="webxr scene-viewer quick-look" camera-controls alt="3D Heart Model"><button slot="ar-button" id="ar-button">View in your space</button><div id="ar-prompt"><img src="assets/hand.png" /></div><button id="ar-failure">AR is not tracking!</button></model-viewer>`;
+        viewer.innerHTML = `<model-viewer src="assets/models/Heart.glb" poster="assets/models/Heart.png" shadow-intensity="1" ar ar-modes="webxr scene-viewer quick-look" camera-controls alt="3D Heart Model"><button slot="ar-button" id="ar-button">View in your space</button><div id="ar-prompt"><img src="assets/hand.png" /></div><button id="ar-failure">AR is not tracking!</button></model-viewer>`;
       } else {
         viewer.innerHTML = `<div>Your device or browser does not support interactive 3D models.</div>`
       }
