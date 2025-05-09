@@ -21,7 +21,7 @@ const loader = new GLTFLoader();
 loader.setDRACOLoader(dracoLoader);
 
 loader.load(
-  "/assets/models/heart.glb",
+  "/models/heart.glb",
   function (gltf) {
     object = gltf.scene;
 
