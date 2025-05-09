@@ -1,2 +1,28 @@
+# Node.js dependencies
+node_modules/
+
+# Vite build output
+/dist/
+
+# Environment variables (if you use .env files)
+.env
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
 .DS_Store
-node_modules
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Optional: Vite server cache (in case you want to exclude this as well)
+.vite/
+
+# Optional: Test coverage or cache folders (for testing libraries like Jest or Mocha)
+coverage/
